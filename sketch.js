@@ -91,9 +91,9 @@ function draw() {
     manStand.changeAnimation("man2", manAnimation);
     manStand.x += 2;
   }
-  // if (keyWentUp(RIGHT_ARROW)) {
-  //   enemy.addAnimation("enemy1", manStand)
-  // }
+  if (keyWentUp(RIGHT_ARROW)) {
+    manStand.changeAnimation("man", manImage)
+  }
 
 
 
